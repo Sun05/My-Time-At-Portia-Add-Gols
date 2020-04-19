@@ -19,7 +19,7 @@ int main()
 		std::cout << "Hanndle Returned NULL: " << GetLastError() << std::endl;
 		return -1;
 	}
-	else std::cout << "Process handle opened." << std::endl; 
+	else std::cout << "Process handle opened." << std::endl;
 
 	uintptr_t dynamicPtrBaseAddr = moduleBase + 0x267B58;
 
@@ -32,7 +32,8 @@ int main()
 	std::cout << "golsAddr = " << "0x" << std::hex << golsAddr << std::endl;
 
 	std::cout << "1. Your father sends you money. (999)\n";
-	std::cout << "2. You hack into the Portia Bank System (99999)\n>>";
+	std::cout << "2. You commit a crime. (99999)\n";
+	std::cout << "3. You hack into the Portia Bank System (999999)\n>>";
 	int selectioni;
 	std::cin >> selectioni;
 	int newGols{};
@@ -40,9 +41,13 @@ int main()
 	{
 		newGols = 999;
 	}
-	else
+	else if (selectioni == 2)
 	{
 		newGols = 99999;
+	}
+	else
+	{
+		newGols = 999999;
 	}
 	int golsValue = 0;
 
