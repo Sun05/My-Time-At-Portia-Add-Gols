@@ -1,0 +1,8 @@
+﻿  PortiaGols.cpp
+  proc.cpp
+  stdafx.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 84 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PortiaGols.vcxproj -> C:\Users\sun\source\repos\PortiaGols\x64\Release\PortiaGols.exe
